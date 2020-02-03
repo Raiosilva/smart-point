@@ -1,11 +1,9 @@
-package com.example.demo.java.com.example.demo.entities;
+package com.example.demo.entities;
 
-import java.beans.Transient;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
-import java.util.Optional;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -22,7 +20,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 
-import com.example.demo.java.com.examplo.demo.enums.ProfileEnum;
+import com.example.demo.enums.ProfileEnum;
 
 @Entity
 @Table(name = "employee")

@@ -1,4 +1,4 @@
-package com.example.demo.java.com.example.demo.entities;
+package com.example.demo.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -18,7 +18,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.example.demo.java.com.examplo.demo.enums.TypeEnum;
+import com.example.demo.enums.TypeEnum;
 
 @Entity
 @Table(name = "launch")

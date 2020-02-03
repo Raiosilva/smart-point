@@ -1,4 +1,4 @@
-package com.example.demo.java.com.examplo.demo.enums;
+package com.example.demo.enums;
 
 public enum TypeEnum {
   INITIAL_WORK,

@@ -1,4 +1,4 @@
-package com.example.demo.java.com.example.demo.entities;
+package com.example.demo.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -15,8 +15,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
-
-import com.example.demo.java.com.example.demo.entities.Employee;
 
 @Entity
 @Table(name = "company")
