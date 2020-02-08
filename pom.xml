@@ -59,10 +59,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 		<artifactId>h2</artifactId>
 	</dependency>
 	
-	<dependency>
-		<groupId>org.flywaydb</groupId>
-		<artifactId>flyway-core</artifactId>
-	</dependency>
+<!--	<dependency>-->
+<!--		<groupId>org.flywaydb</groupId>-->
+<!--		<artifactId>flyway-core</artifactId>-->
+<!--	</dependency>-->
 	
 	<!-- Spring Security -->
 	<dependency>
@@ -134,6 +134,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 				<artifactId>junit-vintage-engine</artifactId>
 			</exclusion>
 		</exclusions>
+	</dependency>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<scope>test</scope>
 	</dependency>
 </dependencies>
 
